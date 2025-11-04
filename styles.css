@@ -317,6 +317,25 @@
             color: white;
         }
 
+ @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .events-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .filters {
+                flex-direction: column;
+            }
+        }
+
         .copyright {
             color: #aaa;
             font-size: 0.9rem;
