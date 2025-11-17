@@ -145,13 +145,6 @@
             font-size: 0.9rem;
         }
 
-        .filter-group select {
-            padding: 10px 15px;
-            border-radius: 8px;
-            border: 1px solid #ddd;
-            background: white;
-            cursor: p
-        }
         .events-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
